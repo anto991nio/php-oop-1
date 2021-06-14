@@ -20,8 +20,8 @@ class movie{
   public function renderMovie() {
     echo "<h1>" . $this->title . "</h1>";
     echo "<h2>" . $this->genre .  "</h2>";
-    echo "<p>Lingua:" . $this->language .  "</p>";
-    echo "<p>Regista:" . $this->filmDirector .  "</p>";
+    echo "<p>Lingua:" . " " . $this->language .  "</p>";
+    echo "<p>Regista:" . " " . $this->filmDirector .  "</p>";
 
   }
 }
